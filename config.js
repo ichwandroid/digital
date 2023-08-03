@@ -17,6 +17,6 @@ if ( environment == "local" )
 }
 else if ( environment == "server" )
 {
-	appURL = "https://pingpoli.de/XXXXX/";
-	backendURL = "https://pingpoli.de/XXXXX/";
+	appURL = "http://server-tu/XXXXX/";
+	backendURL = "http://server-tu/XXXXX/";
 }
