@@ -22,6 +22,7 @@ self.addEventListener( "install" , ( event ) =>
 			"img/icon_180.png",
 			"img/icon_192.png",
 			"img/icon_512.png",
+			"splash_screens/8.3__iPad_Mini_portrait.png",
 			"splash_screens/12.9__iPad_Pro_landscape.png"
 		] );
 	}));
