@@ -18,12 +18,12 @@
 <body onload="init()">
     <nav>
         <div class="wrapper">
-            <div class="logo">
-                <img src="img/dp.png" class="image">
-                </div>
-            <div class="title">
-                <h1>Digital Pickup</h1>
-                <h4>Beta Version 2023</h4>
+            <!-- <div class="logo">
+              </div> -->
+              <div class="title">
+              <img src="img/dp.png" class="image">
+                <!-- <h1>Digital Pickup</h1>
+                <h4>Beta Version 2023</h4> -->
             </div>
 
             <div class="switch-btn">
