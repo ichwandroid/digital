@@ -125,6 +125,18 @@ nav {
   z-index: -1;
 }
 
+<<<<<<< HEAD
+=======
+.wrapper .logo {
+  padding-right: 5px;
+}
+
+.image {
+ width: 20%;
+ height: auto;
+}
+
+>>>>>>> 3fa13aaaa524f09da5177cf5d717bad757b79569
 .wrapper .title {
   margin-top: 1rem;
   margin-bottom: 2rem;
@@ -204,6 +216,10 @@ nav {
 @media (min-width: 301px) and (max-width: 414px) {
   .wrapper .switch-btn .switch-text h3 {
     font-size: 14px;
+<<<<<<< HEAD
+=======
+    visibility: hidden;
+>>>>>>> 3fa13aaaa524f09da5177cf5d717bad757b79569
   }
 }
 
