@@ -7,6 +7,7 @@
     <link rel="apple-touch-startup-image" media="screen and (device-width: 1024px) and (device-height: 1366px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)" href="splash_screens/8.3__iPad_Mini_portrait.png">
     <link rel="apple-touch-startup-image" media="screen and (device-width: 1024px) and (device-height: 1366px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)" href="splash_screens/12.9__iPad_Pro_landscape.png">
     <link rel="icon" type="image/png" href="img/favicon.png">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Sharp:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link rel="stylesheet" href="style.css">
     <link rel="manifest" href="manifest.json">
     <script src="config.js"></script>
@@ -19,13 +20,8 @@
     <nav>
         <div class="wrapper">
             <div class="logo">
-                <img src="img/dp.png" class="image">
-                </div>
-            <div class="title">
-                <h1>Digital Pickup</h1>
-                <h4>Beta Version 2023</h4>
+                <img src="img/1.png" class="image">
             </div>
-
             <div class="switch-btn">
                 <div class="switch-text">
                     <h3>Dark Mode</h3>
@@ -45,78 +41,30 @@
 
         <div class="container">
             <div class="card facebook-card">
-                <div class="card-title">
-                    <div class="icon"></div>
-                    <p>@nathanf</p>
-                </div>
-
                 <div class="card-content">
-                    <h1>1987</h1>
-                    <h3>Followers</h3>
-                </div>
-
-                <div class="card-footer">
-                    <div class="footer-wrapper">
-                        <div class="icon-up"></div>
-                        <h4>12 Today</h4>
-                    </div>
+                    <h1><span class="material-symbols-sharp">barcode_reader</span></h1>
+                    <h3>QR Code Reader</h3>
                 </div>
             </div>
 
             <div class="card twitter-card">
-                <div class="card-title">
-                    <div class="icon"></div>
-                    <p>@nathanf</p>
-                </div>
-
                 <div class="card-content">
-                    <h1>1044</h1>
-                    <h3>Followers</h3>
-                </div>
-
-                <div class="card-footer">
-                    <div class="footer-wrapper">
-                        <div class="icon-up"></div>
-                        <h4>99 Today</h4>
-                    </div>
+                    <h1><span class="material-symbols-sharp">linked_camera</span></h1>
+                    <h3>Smartphone Reader</h3>
                 </div>
             </div>
 
             <div class="card instagram-card">
-                <div class="card-title">
-                    <div class="icon"></div>
-                    <p>@realnathanf</p>
-                </div>
-
                 <div class="card-content">
-                    <h1>11k</h1>
-                    <h3>Followers</h3>
-                </div>
-
-                <div class="card-footer">
-                    <div class="footer-wrapper">
-                        <div class="icon-up"></div>
-                        <h4>1099 Today</h4>
-                    </div>
+                    <h1><span class="material-symbols-sharp">match_word</span></h1>
+                    <h3>By Name</h3>
                 </div>
             </div>
 
             <div class="card yt-card">
-                <div class="card-title">
-                    <div class="icon"></div>
-                    <p>Nathan F.</p>
-                </div>
-
                 <div class="card-content">
-                    <h1>8239</h1>
+                    <h1><span class="material-symbols-sharp">person_play</span></h1>
                     <h3>Followers</h3>
-                </div>
-
-                <div class="card-footer">
-                    <div class="footer-wrapper">
-                        <div class="icon-down"></div>
-                        <h4>144 Today</h4>
-                    </div>
                 </div>
             </div>
         </div>
@@ -135,96 +83,81 @@
                     <div class="icon-face"></div>
                 </div>
                 <div class="card-two-content">
-                    <h2>78</h2>
-                    <div class="icon"></div>
-                    <h4>3%</h4>
+                    <h2>1A</h2>
                 </div>
             </div>
-
+            
             <div class="card-two">
                 <div class="card-two-title">
-                    <p>Likes</p>
+                    <p>Page Views</p>
                     <div class="icon-face"></div>
                 </div>
                 <div class="card-two-content">
-                    <h2>52</h2>
-
-                    <h4 id="down">2%</h4>
+                    <h2>1B</h2>
                 </div>
             </div>
-
+            
             <div class="card-two">
                 <div class="card-two-title">
-                    <p>Likes</p>
-                    <div class="icon-insta"></div>
+                    <p>Page Views</p>
+                    <div class="icon-face"></div>
                 </div>
                 <div class="card-two-content">
-                    <h2>5462</h2>
-
-                    <h4>2257%</h4>
+                    <h2>1C</h2>
+                </div>
+            </div>
+            
+            <div class="card-two">
+                <div class="card-two-title">
+                    <p>Page Views</p>
+                    <div class="icon-face"></div>
+                </div>
+                <div class="card-two-content">
+                    <h2>1D</h2>
                 </div>
             </div>
 
             <div class="card-two">
                 <div class="card-two-title">
                     <p>Page Views</p>
-                    <div class="icon-insta"></div>
+                    <div class="icon-face"></div>
                 </div>
                 <div class="card-two-content">
-                    <h2>52k</h2>
-
-                    <h4>1357%</h4>
+                    <h2>1A</h2>
                 </div>
             </div>
-
-            <div class="card-two">
-                <div class="card-two-title">
-                    <p>Retweets</p>
-                    <div class="icon-twitter"></div>
-                </div>
-                <div class="card-two-content">
-                    <h2>177</h2>
-
-                    <h4>303%</h4>
-                </div>
-            </div>
-
-            <div class="card-two">
-                <div class="card-two-title">
-                    <p>Likes</p>
-                    <div class="icon-twitter"></div>
-                </div>
-                <div class="card-two-content">
-                    <h2>507</h2>
-
-                    <h4>553%</h4>
-                </div>
-            </div>
-
+            
             <div class="card-two">
                 <div class="card-two-title">
                     <p>Page Views</p>
-                    <div class="icon-yt"></div>
+                    <div class="icon-face"></div>
                 </div>
                 <div class="card-two-content">
-                    <h2>78</h2>
-
-                    <h4 id="down">19%</h4>
+                    <h2>1B</h2>
                 </div>
             </div>
-
+            
             <div class="card-two">
                 <div class="card-two-title">
                     <p>Page Views</p>
-                    <div class="icon-yt"></div>
+                    <div class="icon-face"></div>
                 </div>
                 <div class="card-two-content">
-                    <h2>78</h2>
-
-                    <h4 id="down">12%</h4>
+                    <h2>1C</h2>
+                </div>
+            </div>
+            
+            <div class="card-two">
+                <div class="card-two-title">
+                    <p>Page Views</p>
+                    <div class="icon-face"></div>
+                </div>
+                <div class="card-two-content">
+                    <h2>1D</h2>
                 </div>
             </div>
         </div>
+        
     </section>
 
     <footer>

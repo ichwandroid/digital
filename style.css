@@ -151,6 +151,9 @@ nav {
     border-top: 1px solid #252a41;
     margin-top: 0.5rem;
   }
+  .image {
+    width: 60%;
+  }
 }
 
 .wrapper h1 {
@@ -161,11 +164,17 @@ nav {
   .wrapper h1 {
     font-size: 20px;
   }
+  .image {
+    width: 60%;
+  }
 }
 
 @media (max-width: 280px) {
   .wrapper h1 {
     font-size: 16px;
+  }
+  .image {
+    width: 60%;
   }
 }
 
@@ -179,12 +188,18 @@ nav {
     font-size: 14px;
     margin-bottom: 1rem;
   }
+  .image {
+    width: 60%;
+  }
 }
 
 @media (max-width: 280px) {
   .wrapper h4 {
     font-size: 12px;
     margin-bottom: 1rem;
+  }
+  .image {
+    width: 60%;
   }
 }
 
@@ -749,3 +764,4 @@ footer a {
   margin-bottom: 2rem !important;
 }
 /*# sourceMappingURL=index.css.map */
+
